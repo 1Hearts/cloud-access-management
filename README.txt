@@ -1,5 +1,4 @@
 Cloud Service Access Management System
-
 Team members
 Chanho Kim
 
@@ -28,6 +27,7 @@ cloud-access-system/
 ── requirements.txt       # Project dependencies
 
 How to Run the Project
+Make sure Python 3.12 or later is installed.
 1. Install required packages:
    pip install -r requirements.txt
 
@@ -36,6 +36,12 @@ How to Run the Project
 
 3. Open Swagger UI for testing:
    http://127.0.0.1:8080/docs
+4. Basic API Usage Flow
+   - Create a subscription plan
+   - Subscribe a user to a plan
+   - Check API access
+   - Track usage
+   - Re-check access after exceeding usage limit
 
 Main Features
 - Admin can create, modify, and delete subscription plans.
@@ -50,3 +56,5 @@ Notes
 - All APIs can be tested directly through Swagger UI.
 - This project is mainly for educational purposes, and the APIs are simulated.
 
+GitHub Repository
+https://github.com/1Hearts/cloud-access-management
